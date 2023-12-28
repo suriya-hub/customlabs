@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <>
             <div style={{ display: 'flex', backgroundColor: '#39aebc', height: '80px' }}> </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', }}
+            <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}
                 onClick={() => setSaveSegment(true)}>
                 <button style={{ border: '2px solid white', backgroundColor: 'transparent', padding: '10px' }}>
                     Save Segment
