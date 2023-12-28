@@ -64,7 +64,7 @@ const Form = (props: any) => {
                         handleRemoveDropdown={() => setSelectedSchema(undefined)} />
                 </div>
                 <div onClick={() => selectedSchema && selectedSchema.length > 0 && handleAddSchema()}>
-                    <div style={{ color: '#39aebc', textDecoration: 'underline', fontSize: 'medium' }}>+ Add new schema</div>
+                    <div style={{ color: '#39aebc', textDecoration: 'underline', fontSize: 'medium', cursor: 'pointer' }}>+ Add new schema</div>
                 </div>
             </div>
         </>

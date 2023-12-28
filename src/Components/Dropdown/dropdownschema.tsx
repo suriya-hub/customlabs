@@ -2,7 +2,6 @@ import Select from "react-dropdown-select"
 
 const DropdownSchema = (props: any) => {
     const { options, values } = props;
-    console.log(values, 'values')
 
     return (
         <>

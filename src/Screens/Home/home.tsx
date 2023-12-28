@@ -10,7 +10,7 @@ const Home = () => {
             <div style={{ display: 'flex', backgroundColor: '#39aebc', height: '80px' }}> </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}
                 onClick={() => setSaveSegment(true)}>
-                <button style={{ border: '2px solid white', backgroundColor: 'transparent', padding: '10px' }}>
+                <button style={{ border: '2px solid #cdc9c9', backgroundColor: 'transparent', padding: '10px', cursor: 'pointer' }}>
                     Save Segment
                 </button>
             </div>

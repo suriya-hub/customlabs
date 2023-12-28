@@ -16,7 +16,7 @@ const Popup = (props: any) => {
             segment_name: segmentName,
             schema: dropdownOptionsSchemas.map((item: any) => ({ [item.value]: item.label }))
         };
-        handlePress(reqObj)
+        reqObj.schema.length > 0 && reqObj.segment_name !== "" && handlePress(reqObj)
     }
 
     const handlePress = async (reqObj: any) => {
